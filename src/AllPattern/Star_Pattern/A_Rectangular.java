@@ -17,7 +17,7 @@ public class A_Rectangular {
             for (int j = 1 ;j<=column ; j++)
             {
 
-                System.out.print(j+" ");
+                System.out.print("*");
             }
             System.out.println();
         }

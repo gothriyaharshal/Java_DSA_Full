@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 
-public class A {
+public class Printing_Number_From_One_To_n {
 
 
     public static void printing(int range) {

@@ -6,7 +6,39 @@ public class B_Increasing_Charcter {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
 
-        System.out.println("Enter how many rows you want");
+
+        System.out.println("Enter how many row do you want ");
+        int row = scanner.nextInt();
+
+        System.out.println("Enter from which character you want to start");
+        char ch = scanner.next().charAt(0);
+
+
+        for (int i = 1; i <=row ; i++)
+        {
+            char temp = ch;
+            for (int j = 1 ; j<=i ; j++)
+            {
+                System.out.print(temp);
+                temp++;
+            }
+            System.out.println();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*  System.out.println("Enter how many rows you want");
 
         char first_char = scanner.next().charAt(0);
         char last_char = scanner.next().charAt(0);
@@ -18,6 +50,6 @@ public class B_Increasing_Charcter {
                 System.out.print(j);
             }
             System.out.println();
-        }
+        }*/
     }
 }

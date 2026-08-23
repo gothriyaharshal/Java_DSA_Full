@@ -2,17 +2,18 @@ package BitManipulation;
 
 import java.util.Scanner;
 
-public class Removing_Duplicates {
+public class EveryElementsOccursTwic {
 
-    public static void checkingWhichElementApperstwice(int[] arr) {
+    public static int removingDuplicates(int[] arr) {
         int ans = 0;
 
         for(int i = 0; i < arr.length; ++i) {
             ans ^= arr[i];
         }
 
-        System.out.print(ans);
-    }
+        System.out.print("Our duplicate elements is "+ans);
+        return ans;
+     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -33,5 +34,22 @@ public class Removing_Duplicates {
 
         System.out.println();
         System.out.println("After");
-        removingDuplicates(arr);
+      int unique =  removingDuplicates(arr);
+
+        int asdas[] = new int[arr.length-1];
+
+        for (int i =0; i<asdas.length ; i++)
+        {
+            if(arr[i]!=unique)
+            {
+
+                asdas[i]=arr[i];   }
+        }
+
+
+        for (int i = 0 ; i<asdas.length ; i++)
+        {
+            System.out.print(asdas[i]+" ");
+        }
+
     }}

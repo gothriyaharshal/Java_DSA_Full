@@ -4,7 +4,38 @@ import java.util.Scanner;
 
 public class F_Striver {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter how many row you want sir");
+        int row = scanner.nextInt();
+
+        System.out.println("Enter from which character you want to start");
+        char ch = scanner.next().charAt(0);
+
+
+        for (int i = 1 ; i<=row ; i++)
+        {
+
+            char temp = ch;
+
+            for (int j = 1 ; j<=i ; j++)
+            {
+                System.out.print(temp);
+                temp++;
+            }
+            ch = (char)(ch-1);
+
+            System.out.println();
+        }
+
+
+
+
+
+
+
+        /* Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your row");
         int row = scanner.nextInt();
@@ -24,6 +55,6 @@ public class F_Striver {
 
             System.out.println();
         }
-
+*/
     }
 }
