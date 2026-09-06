@@ -9,9 +9,6 @@ public class C_Pyramid {
             System.out.println("Enter your Row");
             int row = scanner.nextInt();
 
-            System.out.println("Enter your column");
-            int column = scanner.nextInt();
-
             for(int i = 1 ;i<=row ; i++)
              {
                  for (int space=1 ; space<=row-i ; space++)

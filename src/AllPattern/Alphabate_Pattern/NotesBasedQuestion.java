@@ -3,7 +3,7 @@ package AllPattern.Alphabate_Pattern;
 import java.util.Scanner;
 
 public class NotesBasedQuestion {
-    static void main() {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your Row how many you want");

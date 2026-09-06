@@ -10,8 +10,6 @@ public class G_inverted_Left {
         System.out.println("Enter your Row");
         int row = scanner.nextInt();
 
-        System.out.println("Enter your column");
-        int column = scanner.nextInt();
 
         for(int i = row ;i>=1 ; i--)
         {

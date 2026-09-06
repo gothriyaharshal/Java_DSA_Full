@@ -1,3 +1,4 @@
+/*
 import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -54,20 +55,24 @@ void main() {
    }
 
    //first we print forward
-   /* Iterator<Integer> iterator = list.iterator();
+   */
+/* Iterator<Integer> iterator = list.iterator();
    while (true)
    {
        if (!iterator.hasNext()) break;
        System.out.print(iterator.next());
-   }*/
+   }*//*
+
    //now we prints backward
+*/
 /*
 
     ListIterator<Integer> listing =  list.listIterator(list.size());
    while (listing.hasPrevious())
    {
        System.out.println(listing.previous());
-   }*/
+   }*//*
+
 
    Student student = new Student(1,"Amit");
     Student student2 = new Student(2,"afd");
@@ -79,9 +84,11 @@ void main() {
 
 
 
-    List<Student> list1 = new ArrayList<>();/*
+    List<Student> list1 = new ArrayList<>();*/
+/*
     list1.addAll(student,student2,student3,student,student5,student6,student7);
-*/
+*//*
+
 
     list1.add(student);
     list1.add(student2);
@@ -119,3 +126,4 @@ void main() {
 
 
 }
+*/
