@@ -14,7 +14,7 @@ Before diving into complex problems, make sure you're comfortable with basic arr
 
 ##### **a) Two Pointer Pattern**
 
-This is a very popular pattern, especially for problems that involve **sorting** or **subarrays**.
+This is a very popular pattern, especially for problems that involve **array.A_sorting** or **subarrays**.
 
 * **Problem Types**:
 
@@ -75,11 +75,11 @@ This pattern is useful for problems that require you to **detect cycles** or **f
 
 ##### **d) Sorting**
 
-A good grasp of **sorting algorithms** is crucial for many array-related problems. Sorting can help simplify problems where the array’s order matters.
+A good grasp of **array.A_sorting algorithms** is crucial for many array-related problems. Sorting can help simplify problems where the array’s order matters.
 
 * **Key Algorithms to Know**:
 
-  * **Bubble Sort**: Not very efficient but useful for learning basic sorting concepts.
+  * **Bubble Sort**: Not very efficient but useful for learning basic array.A_sorting concepts.
   * **Insertion Sort**: Good for small or partially sorted arrays.
   * **Quick Sort**: Average O(n log n) time complexity, very efficient.
   * **Merge Sort**: Also O(n log n) but uses extra space for splitting.

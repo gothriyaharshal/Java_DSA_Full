@@ -1,8 +1,8 @@
-package sorting;
+package array.A_sorting;
 
 import java.util.Scanner;
 
-public class Merge_Sort {
+public class D_Merge_Sort {
 
 
     public static void mergeSort(int[] arr, int start, int end) {

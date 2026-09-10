@@ -1,20 +1,22 @@
-package sorting;
+package array.A_sorting;
 
 import java.util.Scanner;
 
-public class Insertion_Sort {
+public class B_Selection_sort {
 
-    public static void insertion(int[] arr) {
-        for(int i = 1 ; i<arr.length ; i++)
-        {
-            int j = i;
-            while (j>0 && arr[j-1]>arr[j])
-            {
-                int temp = arr[j];
-                arr[j] = arr[j-1];
-                arr[j-1] = temp;
-                j--;
+    public static void selectionSort(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int min_index = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[min_index] > arr[j]) {
+                    min_index = j;
+                }
             }
+
+            //swapping i and min index
+            int temp = arr[i];
+            arr[i] = arr[min_index];
+            arr[min_index] = temp;
         }
     }
 
@@ -35,7 +37,7 @@ public class Insertion_Sort {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "===");
         }
-        insertion(arr);
+        selectionSort(arr);
 
         System.out.println();
 

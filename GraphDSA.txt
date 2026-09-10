@@ -22,7 +22,7 @@ A **graph** consists of nodes (vertices) and edges that connect these nodes. Gra
 
 #### **c) Traversal Algorithms**
 
-* **Depth-First Search (DFS)**: Explores as far down a branch as possible before backtracking. It's often used for exploring all nodes in a graph, pathfinding, and topological sorting.
+* **Depth-First Search (DFS)**: Explores as far down a branch as possible before backtracking. It's often used for exploring all nodes in a graph, pathfinding, and topological array.A_sorting.
 * **Breadth-First Search (BFS)**: Explores all neighbors at the present depth level before moving on to nodes at the next depth level. It's useful for shortest path finding in unweighted graphs.
 
 ---
@@ -31,13 +31,13 @@ A **graph** consists of nodes (vertices) and edges that connect these nodes. Gra
 
 #### **a) Depth-First Search (DFS)**
 
-DFS is typically used for **exploring all nodes** of a graph or tree, **pathfinding**, **detecting cycles**, and **topological sorting**.
+DFS is typically used for **exploring all nodes** of a graph or tree, **pathfinding**, **detecting cycles**, and **topological array.A_sorting**.
 
 * **Use Cases**:
 
   * **Finding connected components** in a graph.
   * **Cycle detection** in directed and undirected graphs.
-  * **Topological sorting** for Directed Acyclic Graphs (DAGs).
+  * **Topological array.A_sorting** for Directed Acyclic Graphs (DAGs).
 
 **Example Problems**:
 
@@ -104,7 +104,7 @@ Floyd-Warshall is an **all-pairs shortest path algorithm**. It finds the shortes
 
 #### **f) Topological Sort**
 
-Topological sorting is used on **Directed Acyclic Graphs (DAGs)**. It’s a linear ordering of vertices such that for every directed edge `uv`, vertex `u` comes before `v` in the ordering.
+Topological array.A_sorting is used on **Directed Acyclic Graphs (DAGs)**. It’s a linear ordering of vertices such that for every directed edge `uv`, vertex `u` comes before `v` in the ordering.
 
 * **Use Cases**:
 
@@ -188,7 +188,7 @@ Here are key **LeetCode problem numbers** to practice:
 
 * **Master graph traversal**: Start with **BFS** and **DFS**, and get comfortable with their iterative and recursive implementations.
 * **Solve pathfinding problems**: Implement **Dijkstra's**, **Bellman-Ford**, and **Floyd-Warshall** algorithms.
-* **Topological Sort**: Understand how to perform **topological sorting** in DAGs and how to detect cycles.
+* **Topological Sort**: Understand how to perform **topological array.A_sorting** in DAGs and how to detect cycles.
 * **Union-Find**: Learn how to implement the **Union-Find** data structure for cycle detection and connected components.
 * **Minimum Spanning Tree**: Practice **Kruskal’s** and **Prim’s** algorithms for finding the MST.
 * **Practice with grid-based problems**: Many graph problems are represented as 2D grids, such as finding islands or the shortest path in a maze.

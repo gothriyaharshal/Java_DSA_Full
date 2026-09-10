@@ -1,4 +1,4 @@
-Great! Let's jump into **Linked Lists**, which are an essential data structure and a critical topic for coding interviews. **Linked Lists** are frequently tested in interviews due to their versatility and how they provide an excellent platform for practicing fundamental algorithms, such as **reversing**, **detecting cycles**, **merging**, and **sorting**.
+Great! Let's jump into **Linked Lists**, which are an essential data structure and a critical topic for coding interviews. **Linked Lists** are frequently tested in interviews due to their versatility and how they provide an excellent platform for practicing fundamental algorithms, such as **reversing**, **detecting cycles**, **merging**, and **array.A_sorting**.
 
 We'll break it down into key **Linked List patterns**, **important algorithms**, and some **must-do LeetCode questions**.
 
